@@ -21,8 +21,10 @@
 - `npx create-next-app@latest [프로젝트명]`
 - `--ts` 옵션을 붙이면 타입스크립트용 프로젝트 생성
   - `npx create-next-app@latest [프로젝트명] --ts`
-- 이번엔 이하를 생성
-  - `npx create-next-app@latest nextjs-sample --ts`
+- 책이 v12이하이므로 이번엔 아래와 같이 버전 지정
+  - `npx create-next-app@12 nextjs-sample --ts`
+
+latest 선택시의 설정
 
 ```text
 $ npx create-next-app@latest nextjs-sample --ts
