@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
         <Link href="/ssr">SSR</Link>
         <Link href={{ pathname: '/ssg', query: { keyword: 'hello' } }}>
-          <button className="bg-white text-black">SSG</button>
+          <button className="bg-white text-black my-1">SSG</button>
         </Link>
 
         <p className={styles.description}>
