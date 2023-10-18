@@ -20,5 +20,3 @@ v12이하의 Next.js 프로젝트의 프로젝트 구성 확인
 pages 아래에 배치된 tsx 파일 1개가 페이지 1개에 대응
 
 실습 : `pages/sample.tsx`를 작성하고, `localhost:3000/sample`에 접속
-
-#### SSG를 통한 페이지 구현
