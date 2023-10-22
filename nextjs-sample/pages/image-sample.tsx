@@ -6,7 +6,6 @@ import SushiImage from '../public/images/sushi.jpeg'
 // Image 컴포넌트는 브라우저의 정보를 기반으로 최적화된 이미지 제공
 // 외부 리소스 이미지의 경우는 최적화된 이미지를 표시하려면, next.config.js의 domains에 이미지 도메인 추가
 // 혹은 Image 컴포넌트에서 unoptimized = True 를 설정해서 최적화를 무효화
-
 const ImageSample: NextPage<void> = (props) => {
   return (
     <div>
