@@ -30,3 +30,17 @@ pages 아래에 배치된 tsx 파일 1개가 페이지 1개에 대응
 #### Run
 
 `npm run storybook`
+
+### React Testing Library
+
+DOM Testing Library를 사용해 컴포넌트의 테스트를 진행
+컴포넌트를 실제로 화면에 그리고, 그 결과의 DOM에 접근해서 올바른 화면이 그려져 있는지 테스트
+
+```text
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom jest-environment-jsdom
+```
+
+jest.setup.js, jest.config.js를 설정 후, package.json에 스크립트 추가
+이하를 통해 기동 가능
+
+`npm run test`
